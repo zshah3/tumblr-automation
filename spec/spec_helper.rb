@@ -95,12 +95,12 @@ end
 
 def take_selfie
   @b.a(id: 'new_post_label_photo').click
-    sleep 2
-    @b.div(class: "webcam-button").click
-    @b.div(class: "icon").click
-    sleep 5
-    @b.button(class: "button-area create_post_button").click
-    sleep 2
+  sleep 2
+  @b.div(class: "webcam-button").click
+  @b.div(class: "icon").click
+  sleep 5
+  @b.button(class: "button-area create_post_button").click
+  sleep 2
 end
 
 
